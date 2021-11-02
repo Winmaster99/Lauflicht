@@ -14,8 +14,8 @@ for i in range(0,10):
 while True:
     for i in range(0,10):
         leds[i].value(1)
-        time.sleep(0.01)
-    for i in range(9,-1,-1):
+        time.sleep(0.015)
+    for i in range(0,10):
         leds[i].value(0)
-        time.sleep(0.01) 
+        time.sleep(0.015) 
 
